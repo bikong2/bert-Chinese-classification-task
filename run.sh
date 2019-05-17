@@ -1,8 +1,11 @@
+# @author: lixihua9@126.com
 
+# 00
+#pytorch_pretrained_bert convert_tf_checkpoint_to_pytorch bert_model.ckpt bert_config.json pytorch_model.bin
 
-export GLUE_DIR=/search/odin/wuyonggang/bert/extract_code/glue_data
-export BERT_BASE_DIR=/search/odin/wuyonggang/bert/chinese_L-12_H-768_A-12/
-export BERT_PYTORCH_DIR=/search/odin/wuyonggang/bert/chinese_L-12_H-768_A-12/
+export GLUE_DIR=/home/lixihua/bikong2/NLPcodes/bert-Chinese-classification-task/glue_data
+export BERT_BASE_DIR=/home/lixihua/bikong2/NLPcodes/bert-Chinese-classification-task/chinese_L-12_H-768_A-12/
+export BERT_PYTORCH_DIR=/home/lixihua/bikong2/NLPcodes/bert-Chinese-classification-task/chinese_L-12_H-768_A-12/
 
 python run_classifier_word.py \
   --task_name NEWS \

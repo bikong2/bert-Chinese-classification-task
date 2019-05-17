@@ -1,4 +1,9 @@
 # bert-Chinese-classification-task
+
+参考：  
+https://github.com/huggingface/pytorch-pretrained-BERT  
+获得pytorch pretrain BERT model  
+
 bert中文分类实践
 
 在run_classifier_word.py中添加NewsProcessor，即新闻的预处理读入部分 \

@@ -319,7 +319,7 @@ class BertModel(nn.Module):
     all_encoder_layers, pooled_output = model(input_ids, token_type_ids, input_mask)
     ```
     """
-    def __init__(self, config: BertConfig):
+    def __init__(self, config = BertConfig):
         """Constructor for BertModel.
 
         Args:
